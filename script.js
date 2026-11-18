@@ -54,18 +54,26 @@
 
 // PositiveOrNot(3)
 
-let y = [1, 2, 4, 1, 5, 2];
+// let y = [1, 2, 4, 1, 5, 2];
 
-var findLargest = (arr) => {
-    let largest = arr[0];
+// var findLargest = (arr) => {
+//     let largest = arr[0];
 
-    for (let a = 0; a < arr.length; a++) {
-        if (arr[a] > largest) {
-            largest = arr[a];
-        }
-    }
+//     for (let a = 0; a < arr.length; a++) {
+//         if (arr[a] > largest) {
+//             largest = arr[a];
+//         }
+//     }
 
-    return largest;
-};
+//     return largest;
+// };
 
-console.log("The largest number is", findLargest(y));
+// console.log("The largest number is", findLargest(y));
+
+let person={
+    name: "Alice",
+    address:"Wonderland"
+}
+person.age=22;
+
+console.log(person)
