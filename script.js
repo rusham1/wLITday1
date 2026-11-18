@@ -70,10 +70,23 @@
 
 // console.log("The largest number is", findLargest(y));
 
-let person={
-    name: "Alice",
-    address:"Wonderland"
-}
-person.age=22;
+// let person={
+//     name: "Alice",
+//     address:"Wonderland"
+// }
+// person.age=22;
 
-console.log(person)
+// console.log(person)
+
+shape={
+    length:10,
+    breadth:20,
+    areaSquare(){
+        return (this.length*this.length)
+    },
+    areaRect(){
+        return((this.length)*(this.breadth))
+    }
+}
+console.log(shape.areaSquare())
+console.log(shape.areaRect())
